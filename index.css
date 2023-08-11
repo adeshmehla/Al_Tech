@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .dot-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF5733; /* You can change the dot color here */
+    animation: moveDots 200s linear infinite;
+  }
+
+  @keyframes moveDots {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(20vw, 20vh);
+    }
+    50% {
+      transform: translate(20vw, 0);
+    }
+    75% {
+      transform: translate(0, 20vh);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .dot2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #63d625; /* You can change the dot color here */
+    animation: moveDots2 200s linear infinite;
+  }
+
+  @keyframes moveDots2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(50vw, 50vh);
+    }
+    50% {
+      transform: translate(0vw, 40);
+    }
+    75% {
+      transform: translate(40, 0vh);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .dot3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1b03a5; /* You can change the dot color here */
+    animation: moveDots3 200s linear infinite;
+  }
+
+  @keyframes moveDots3 {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(70vw, 80vh);
+    }
+    50% {
+      transform: translate(0vw, 80);
+    }
+    75% {
+      transform: translate(10, 70vh);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+
+  /* hero container :start */
+  #hero_container{
+    color: white;
+    font-weight: 300;
+    margin: auto;
+    width: 26%;
+    font-family: monospace;
+    
+  }
+  #hero_container h1{
+    font-size: 59px;
+  }
+  #hero_container h2{
+    font-size: 40px;
+  }
+  #hero_container h3{
+    font-size: 24px;
+  }
+
+   .hero_btn{
+  width:260px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border-radius: 18px;
+  border: 1px solid white;
+  }
